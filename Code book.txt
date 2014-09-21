@@ -1,0 +1,49 @@
+#######################################################################
+#Step 1 : Merges the training and the test sets to create one data set.
+#######################################################################
+
+# Set working directory to where data files are 
+
+wDir : Contains working directory
+
+X_test : data frame containing X_test data 
+
+X_train : data frame containing X_train data
+ 
+subject_test : data frame containing Subject_test
+
+subject_train : data frame containing Subject_train
+
+y_test : data frame containing Y_test
+ 
+y_train : data frame containing Y_train
+
+features : data frame containing features
+ 
+activity_labels : data frame containing activity labels
+
+Comb_subj : Combine test and train subjects
+ 
+Comb_act : Combine test and train activities
+ 
+Comb_obs : Combine test and train observations
+ 
+HAR_dataset : combine subject, activity and observations 
+
+HAR_mean_std : containing mean and std variables only
+
+HAR_AVG : final data set containing summary by subject and activity
+
+
+
+
+
+
+
+
+
+
+
+
+
+
